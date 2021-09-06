@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+     <div class="container">
+         <div class="row precheck">
+             <div class="logo">
+                <h3>Online Shopping</h3>
+             </div>
+             <div class="cart">
+               <p>Cart</p>
+               <div class="cart-design">
+                 <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+               </div>
+
+               <span class="cart-count">0</span>
+               <span class="menu-login">Login</span>
+             </div>
+         </div>
+     </div>
+   </header>
+   <div class="login-section active">
+      <div class="login-form">
+         <h3>Login</h3>
+         <span class="close-box"><i class="fa fa-times"></i></span>
+         <form class="" action="index.html" method="post">
+              <input type="text" name="" value="" class="form-control" placeholder="Email">
+              <input type="password" name="" value="" class="form-control" placeholder="Password">
+            <span class="signup">Don't have an account? <span class="link1">signup</span></span>
+            <button type="button" name="button" class="login-btn">Login</button>
+         </form>
+      </div>
+      <div class="signup-form active">
+        <h3>Sign Up</h3>
+        <span class="close-box"><i class="fa fa-times"></i></span>
+        <form class="" action="index.html" method="post">
+             <input type="text" name="" value="" class="form-control" placeholder="Enter Username">
+             <input type="text" name="" value="" class="form-control" placeholder="Enter Email">
+             <input type="password" name="" value="" class="form-control" placeholder="Enter Password">
+             <input type="password" name="" value="" class="form-control" placeholder="Retype Password">
+             <textarea name="name" class="form-control" placeholder="Address"></textarea>
+           <span class="login">Already have an account? <span class="link2">login</span></span>
+           <button type="button" name="button" class="signup-btn">Sign up</button>
+        </form>
+      </div>
+   </div>
+   <section class="features-section bg-light" id="features">
+                <div class="container">
+                    <div class="row justify-content-center m-4">
+                        <div class="col-lg-7">
+                            <div class="content-title" style="text-align: center;">
+                                <h1 class="title">Features</h1>
+                                <h3 class="subtitle">Best Quality and Performance All Over The Time</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="features-item col-lg-12">
+                              <span class="details">Details</span>
+                                <div class="product-img">
+                                  <img src="mac1.png" alt="">
+                                </div>
+                                <h3>MacBook Air</h3>
+                                <p><span class="old-price">$1100</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$999</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-flex">
+                             <div class="features-item col-lg-12">
+                               <span class="details">Details</span>
+                               <div class="product-img">
+                                 <img src="mac2.png" alt="">
+                               </div>
+                                <h3>MacBook Pro 13</h3>
+                                <p><span class="old-price">$1500</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$1399</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="features-item col-lg-12">
+                              <span class="details">Details</span>
+                              <div class="product-img">
+                                <img src="mac3.png" alt="">
+                              </div>
+                                <h3>MacBook Pro 16</h3>
+                                <p><span class="old-price">$2500</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$2399</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="features-item col-lg-12">
+                              <span class="details">Details</span>
+                              <div class="product-img">
+                                <img src="iphone1.png" alt="">
+                              </div>
+                                <h3>iPhone 12</h3>
+                                <p><span class="old-price">$710</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$699</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="features-item col-lg-12">
+                              <span class="details">Details</span>
+                              <div class="product-img">
+                                <img src="iphone3.png" alt="">
+                              </div>
+                                <h3>iPhone 12 Pro</h3>
+                                <p><span class="old-price">$1200</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$999</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-flex">
+                             <div class="features-item col-lg-12">
+                               <span class="details">Details</span>
+                               <div class="product-img">
+                                 <img src="iphone2.png" alt="">
+                               </div>
+                                <h3>iPhone 12 Mini</h3>
+                                <p><span class="old-price">$610</span>
+                                    <span class="arrow"><img src="arrow.png" alt=""></span>
+                                   <span class="new-price">$599</span>
+                                </p>
+                                <form class="" action="index.html" method="post">
+                                    <button class="addcart" type="button" name="button">Add Cart</button>
+                                </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        <section class="footer">
+
+              <h6>&copy; 2020 All rights reserved</h6>
+
+        </section>
+      <script src="shop.js">
+
+      </script>
+</body>
+
+</html>
